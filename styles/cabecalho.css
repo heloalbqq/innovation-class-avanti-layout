@@ -67,6 +67,14 @@
   color: var(--azul-principal) ;
 }
 
+.container__departamentos {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    
+}
+
+
 /* Logo */
 .cabecalho__logo {
   flex-grow: 1;
@@ -123,7 +131,13 @@
 }
 
 .container__departamentos {
-  display: none;
+  margin: 15x;
+  
+}
+
+.container__departamentos a {
+  margin: 5px;
+  
 }
 
 /* Remove o botão de limpar (x) e o de cancelar nos inputs tipo search  */
